@@ -106,5 +106,6 @@ else if(grade>=40){
     console.log("D GRADE");
 }
 else if(grade<40){
+    alert("FAILED");
     console.log("FAILED");
 }
