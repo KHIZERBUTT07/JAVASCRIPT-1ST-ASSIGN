@@ -43,9 +43,16 @@ console.log("Remainder:", remainder);
 
 // 6) POST INCREMENT AND PRE INCREMENT
 
-var no = 7
+/* var no = 7
 console.log("Post Increment:", no++); // Prints 7, then increment no to 8
-console.log("Pre Increment:", ++no) // Incrememt no to 9, then prints 9
+console.log("Pre Increment:", ++no) // Incrememt no to 9, then prints 9 */
+
+// ANOTHER METHOD
+var no = 7
+no++;
+console.log("Post Increment:", no); // Prints 7, then increment no to 8
+++no;
+console.log("Pre Increment:", no) // Incrememt no to 9, then prints 9
 
 
 // 7) CONCATENATING TEXT STRINGS
